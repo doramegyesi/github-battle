@@ -56,3 +56,14 @@ var dori = {
 var languages = ['JavaScript', 'Python', 'Java'];
 
 sayName.apply(dori, languages);
+
+//new binding
+var Animal = function(color, name, type) {
+    this.color = color;
+    this.name = name;
+    this.type = type
+};
+
+var sloth = new Animal('grey', 'Harry', 'sloth');
+
+console.log(sloth)
